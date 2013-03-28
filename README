@@ -15,7 +15,8 @@ Combo Script - 自动合并/压缩脚本
  - http://yourdomain.com/combo.php?app/js/1.js&app/js/2.js
 
 合并压缩
- - http://yourdomain.com/minify.php?app/js/1.js&app/js/2.js
+ - http://yourdomain.com/minify.php??app/js/1.js,app/js/2.js
+ - 注：此处修改为只合并压缩js,css; URL中以逗号分隔，并可配置是否将合并后的文件文件缓存起来;
 
 模拟淘宝CDN
  - http://a.tbcdn.cn/??1.js,2.js
@@ -29,4 +30,3 @@ Combo Script - 自动合并/压缩脚本
  - cb.php 淘宝CDN合并文件策略的模拟
 
 php文件编码统一使用utf-8
-
